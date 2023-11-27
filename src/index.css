@@ -132,7 +132,13 @@ code {
   margin-top: 30px;
 }
 
-.task-delete__btn {
+.task-btn {
   background: transparent;
   border: none;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
